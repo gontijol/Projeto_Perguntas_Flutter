@@ -1,8 +1,9 @@
-# projeto_perguntas
+# Projeto_Perguntas
 
-A new Flutter project.
+Um pequeno projeto de um questionário utilizando o framework flutter.
 
-## Getting Started
+## Exemplo da Aplicação
+<img src="https://i.imgur.com/fQNvQP5.gif" alt="Simple tasks manager" data-canonical-src="https://i.imgur.com/fQNvQP5.gif" style="max-width:100%;">
 
 This project is a starting point for a Flutter application.
 
