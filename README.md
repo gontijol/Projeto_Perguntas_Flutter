@@ -1,6 +1,5 @@
-# Projeto_Perguntas
-
-Um pequeno projeto de um questionário utilizando o framework flutter.
+# Programador Iniciante
+Um pequeno projeto de um questionário que visa fornecer ao usuário qual linguagem ele deve iniciar no mundo da programação, foi utilizado o framework flutter.
 
 ## Exemplo da Aplicação
 <img src="https://i.imgur.com/fQNvQP5.gif" alt="Simple tasks manager" data-canonical-src="https://i.imgur.com/fQNvQP5.gif" style="max-width:100%;">
