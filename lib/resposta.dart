@@ -9,13 +9,20 @@ class Resposta extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: double.infinity,
-      child: RaisedButton(
-        textColor: Colors.white,
-        color: Colors.blue,
-        child: Text(texto),
+      width: 250,
+      child: ElevatedButton(
+        style: ButtonStyle(
+          backgroundColor:
+              MaterialStateProperty.all<Color>(Colors.tealAccent[700]),
+        ),
+        child: Text(texto, style: TextStyle(color: Colors.black)),
         onPressed: quandoSelecionado,
       ),
+      /*RaisedButton(
+        textColor: Colors.white,
+        color: Colors.tealAccent[700],
+        child: Text(texto),
+        onPressed: quandoSelecionado,*/
     );
   }
 }

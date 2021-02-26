@@ -9,30 +9,34 @@ class _PerguntaAppState extends State<PerguntaApp> {
   var _pontuacaoTotal = 0;
   final _perguntas = const [
     {
-      'texto': 'Qual é a sua cor favorita?',
+      //'texto': 'Qual linguagem devo iniciar?',
       'respostas': [
-        {'texto': 'Preto', 'pontuacao': 10},
-        {'texto': 'Vermelho', 'pontuacao': 5},
-        {'texto': 'Verde', 'pontuacao': 3},
-        {'texto': 'Branco', 'pontuacao': 1},
+        {'texto': 'INICIAR', 'pontuacao': 0},
       ],
     },
     {
-      'texto': 'Qual é o seu animal favorito?',
+      //'texto': 'Tipo de tipagem?',
       'respostas': [
-        {'texto': 'Cachorro', 'pontuacao': 10},
-        {'texto': 'Gato', 'pontuacao': 5},
-        {'texto': 'Coelho', 'pontuacao': 3},
-        {'texto': 'Cavalo', 'pontuacao': 1},
+        {'texto': 'Tipagem Forte', 'pontuacao': 100},
+        {'texto': 'Tipagem Fraca', 'pontuacao': 50},
       ],
     },
     {
-      'texto': 'Qual é o seu personagem favorito?',
+      //'texto': 'Qual área voce deseja se especializar?',
       'respostas': [
-        {'texto': 'Luigi', 'pontuacao': 10},
-        {'texto': 'Mario', 'pontuacao': 5},
-        {'texto': 'Toad', 'pontuacao': 3},
-        {'texto': 'Peach', 'pontuacao': 1},
+        {'texto': 'Machine Learning', 'pontuacao': 30},
+        {'texto': 'Desenvolvimento Web', 'pontuacao': 25},
+        {'texto': 'Desenvolvimento Mobile', 'pontuacao': 20},
+        {'texto': 'Desenvolvimento de Jogos', 'pontuacao': 100},
+      ],
+    },
+    {
+      //'texto': 'Escolha uma alternativa abaixo?',
+      'respostas': [
+        {'texto': 'Otimizacao', 'pontuacao': 10},
+        {'texto': 'Qualidade', 'pontuacao': 5},
+        {'texto': 'Features', 'pontuacao': 3},
+        {'texto': 'Cross-Plataforms', 'pontuacao': 1},
       ],
     }
   ];
@@ -61,8 +65,14 @@ class _PerguntaAppState extends State<PerguntaApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.black,
         appBar: AppBar(
-          title: Text('Perguntas'),
+          centerTitle: true,
+          backgroundColor: Colors.tealAccent[700],
+          title: Text(
+            'PROGRAMADOR INICIANTE',
+            style: TextStyle(color: Colors.black),
+          ),
         ),
         body: temPerguntaSelecionada
             ? Questionario(
