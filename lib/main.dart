@@ -22,7 +22,7 @@ class _PerguntaAppState extends State<PerguntaApp> {
       ],
     },
     {
-      //'texto': 'Qual área voce deseja se especializar?',
+      'texto': 'Qual área voce deseja se especializar?',
       'respostas': [
         {'texto': 'Machine Learning', 'pontuacao': 30},
         {'texto': 'Desenvolvimento Web', 'pontuacao': 25},
