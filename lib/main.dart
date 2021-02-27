@@ -9,20 +9,20 @@ class _PerguntaAppState extends State<PerguntaApp> {
   var _pontuacaoTotal = 0;
   final _perguntas = const [
     {
-      //'texto': 'Qual linguagem devo iniciar?',
+      'texto': 'Qual linguagem devo iniciar?',
       'respostas': [
         {'texto': 'INICIAR', 'pontuacao': 0},
       ],
     },
     {
-      //'texto': 'Tipo de tipagem?',
+      'texto': 'Tipo de tipagem?',
       'respostas': [
         {'texto': 'Tipagem Forte', 'pontuacao': 100},
         {'texto': 'Tipagem Fraca', 'pontuacao': 50},
       ],
     },
     {
-      //'texto': 'Qual área voce deseja se especializar?',
+      'texto': 'Qual área voce deseja se especializar?',
       'respostas': [
         {'texto': 'Machine Learning', 'pontuacao': 30},
         {'texto': 'Desenvolvimento Web', 'pontuacao': 25},
@@ -31,7 +31,7 @@ class _PerguntaAppState extends State<PerguntaApp> {
       ],
     },
     {
-      //'texto': 'Escolha uma alternativa abaixo?',
+      'texto': 'Escolha uma alternativa abaixo?',
       'respostas': [
         {'texto': 'Otimizacao', 'pontuacao': 10},
         {'texto': 'Qualidade', 'pontuacao': 5},
