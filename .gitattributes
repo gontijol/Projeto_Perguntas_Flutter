@@ -2,3 +2,4 @@
 * linguist-vendored
 *.js linguist-vendored=false
 *.cpp linguist-vendored=false
+*.CMake linguist-vendored=false
