@@ -1,5 +1,3 @@
 # Exclude compiled file from github statistics
 * linguist-vendored
-*.js linguist-vendored=false
-*.cpp linguist-vendored=false
-*.CMake linguist-vendored=false
+ *.* linguist-language=Java
